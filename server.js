@@ -1,4 +1,4 @@
-require('dotenv').config(); // Подключаем dotenv
+require('dotenv').config(); 
 
 console.log(`Имя: ${process.env.FIRST_NAME}`);
 console.log(`Фамилия: ${process.env.LAST_NAME}`);
